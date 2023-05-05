@@ -1,7 +1,7 @@
 .navbar {
     /* Center the text */
     justify-content: center;
-    background: linear-gradient(to bottom right, rgb(64, 170, 196), rgb(76, 231, 64));
+    background: linear-gradient(to bottom right, rgb(196, 121, 64), rgb(165, 57, 181));
   }
   
   .card {
