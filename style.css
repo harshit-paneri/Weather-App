@@ -1,5 +1,40 @@
-body{
-    background-image: url(https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2VhdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
+.navbar {
+    /* Center the text */
+    justify-content: center;
+    background: linear-gradient(to bottom right, rgb(64, 170, 196), rgb(76, 231, 64));
+  }
+  
+  .card {
+    /* Add box shadow */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn {
+    /* Use uppercase */
+    text-transform: uppercase;
+  }
+  body {
+    background: linear-gradient(to bottom right, rgb(102, 67, 198), rgb(231, 76, 60));
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  .navbar-brand {
+    font-size: 2rem; /* Increase font size */
+    font-weight: bold; /* Set font weight to bold */
+    color: black; /* Text color white */
+    
+  }
+  
+  /* Button styles */
+  .btn-outline-success {
+    color: white; /* Set text color to white */
+    border-color: white; /* Set border color to white */
+  }
+  
+  .btn-primary {
+    background-color: #343a40; /* Change background color to dark gray */
+    border-color: #343a40; /* Set border color to match background */
+  }
