@@ -1,40 +1,91 @@
+/* Navbar styles */
 .navbar {
-    /* Center the text */
-    justify-content: center;
-    background: linear-gradient(to bottom right, rgb(196, 121, 64), rgb(165, 57, 181));
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Body styles */
+body {
+  background-color: #292c37;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Card styles */
+.card {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  background-color: #222;
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  background-color: #4e4e4e;
+  color: white;
+}
+
+.card-header h4 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Button styles */
+.btn {
+  text-transform: uppercase;
+  background-color: #d1ff8dd1;
+  border-color: #080139;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6f6f6f;
+}
+
+.btn-primary {
+  background-color: #f0b209;
+  border-color: #f0b209;
+}
+
+.btn-primary:hover {
+  background-color: #f09b09;
+}
+
+/* Typography styles */
+h1, h4 {
+  margin: 0;
+}
+
+h1{
+  color:aqua;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  .card-columns {
+    column-count: 1;
   }
-  
-  .card {
-    /* Add box shadow */
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .btn {
-    /* Use uppercase */
-    text-transform: uppercase;
-  }
-  body {
-    background: linear-gradient(to bottom right, rgb(102, 67, 198), rgb(231, 76, 60));
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header styles */
-  .navbar-brand {
-    font-size: 2rem; /* Increase font size */
-    font-weight: bold; /* Set font weight to bold */
-    color: black; /* Text color white */
-    
-  }
-  
-  /* Button styles */
-  .btn-outline-success {
-    color: white; /* Set text color to white */
-    border-color: white; /* Set border color to white */
-  }
-  
-  .btn-primary {
-    background-color: #343a40; /* Change background color to dark gray */
-    border-color: #343a40; /* Set border color to match background */
-  }
+}
